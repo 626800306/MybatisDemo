@@ -6,6 +6,7 @@ package com.baizhi.dao1;
  */
 public class HelloServiceImpl implements HelloService{
 
+
     @Override
     public void sayHello(String name) {
         System.out.println("你好!"+name);
